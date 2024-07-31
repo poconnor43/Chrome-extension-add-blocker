@@ -1,0 +1,29 @@
+{
+    "name": "Preston's adBlocker",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "permissions": [
+        "declarativeNetRequest"
+    ],
+    "icons": {
+        "16": "icons/imresizer-1717427805432.png",
+        "48": "icons/imresizer-1717427974910.png",
+        "128": "icons/imresizer-1717428152880.png"
+      },
+      "action": {
+        "default_icon": {
+          "16": "icons/imresizer-1717427805432.png",
+          "48": "icons/imresizer-1717427974910.png",
+          "128": "icons/imresizer-1717428152880.png"
+        }
+      },
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "ruleset_1",
+                "enabled":true,
+                "path":"rules.json"
+            }
+        ]
+    }
+}
